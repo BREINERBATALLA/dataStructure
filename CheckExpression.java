@@ -25,7 +25,7 @@ public class CheckExpression {
                 stack.push(')');
             }
             else if(temp!=stack.pop()){
-                correct=false;
+                return false;
             }
         }
 

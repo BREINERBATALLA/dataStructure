@@ -54,7 +54,7 @@ public class Tree<T> {
 
     }
 
-    static void postOrden(Tree<?> tree) {
+    static void postOrden(Tree tree) {
 
         if(tree!=null) {
             preOrden(tree.left);
