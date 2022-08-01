@@ -34,7 +34,7 @@ public class Tree<T> {
         this.right = right;
     }
 
-    static void preOrden(Tree<?> tree) {
+    static void preOrden(Tree tree) {
 
         if(tree!=null) {
             System.out.println(tree.data);
@@ -44,7 +44,7 @@ public class Tree<T> {
 
     }
 
-    static void inOrden(Tree<?> tree) {
+    static void inOrden(Tree tree) {
 
         if(tree!=null) {
             preOrden(tree.left);
