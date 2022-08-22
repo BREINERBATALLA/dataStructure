@@ -42,8 +42,6 @@ public class LinkedList<T> {
             temp.next=newNode;
         }
 
-
-
     }
 
     public T getAtBeginning(){
