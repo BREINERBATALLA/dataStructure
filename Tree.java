@@ -9,31 +9,7 @@ public class Tree<T> {
         this.left = left;
         this.right = right;
     }
-
-    public T getData() {
-        return data;
-    }
-
-    public void setData(T data) {
-        this.data = data;
-    }
-
-    public Tree<T> getLeft() {
-        return left;
-    }
-
-    public void setLeft(Tree<T> left) {
-        this.left = left;
-    }
-
-    public Tree<T> getRight() {
-        return right;
-    }
-
-    public void setRight(Tree<T> right) {
-        this.right = right;
-    }
-
+    
     static void preOrden(Tree tree) {
 
         if(tree!=null) {
@@ -77,6 +53,30 @@ public class Tree<T> {
         }
 
         return (isBST(tree.getRight()) && isBST(tree.getLeft()));
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    public Tree<T> getLeft() {
+        return left;
+    }
+
+    public void setLeft(Tree<T> left) {
+        this.left = left;
+    }
+
+    public Tree<T> getRight() {
+        return right;
+    }
+
+    public void setRight(Tree<T> right) {
+        this.right = right;
     }
 
     public static void main(String[] args) {
